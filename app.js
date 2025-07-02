@@ -30,9 +30,7 @@ dotenv.config({
   path: "./.env",
 });
 
-const mongoURI =
-  process.env.MONGO_URI ||
-  "mongodb+srv://ghoramiswapna32:3hbiYcvYbV4DvVSQ@ghoramiswapna32.bcx6zqq.mongodb.net/?retryWrites=true&w=majority&appName=ghoramiswapna32";
+const mongoURI = process.env.MONGO_URI 
 const port = process.env.PORT || 4000;
 const envMode = "PRODUCTION";
 const adminSecretKey = process.env.ADMIN_SECRET_KEY || "adsasdsdfsdfsdfd";
